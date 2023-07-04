@@ -93,5 +93,13 @@
     margin: 0 10px;
   }
 }
+
 @media (min-width: 375px) {
+  body {
+    font-family: Poppins, sans-serif;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background-color: #f4f5f7;
+  }
 }
