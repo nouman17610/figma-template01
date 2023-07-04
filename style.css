@@ -61,6 +61,8 @@
     color: #344563;
     padding-right: 3%;
     padding-left: 3%;
+    margin-left: 1%;
+    margin-top: -4%;
   }
 
   .icon-text {
@@ -75,6 +77,8 @@
 
   .icon-text h4 {
     color: #7f8cff;
+    margin-left: 3%;
+    margin-top: -5%;
   }
 
   .social-icons {
@@ -86,6 +90,7 @@
     height: 40px;
     padding-right: 3%;
     padding-left: 2%;
+    margin-top: 0;
   }
 
   .social-icons li {
