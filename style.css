@@ -76,7 +76,7 @@
   .icon-text h4 {
     color: #7f8cff;
   }
-  
+
   .social-icons {
     display: flex;
     flex-direction: row;
@@ -87,12 +87,11 @@
     padding-right: 3%;
     padding-left: 2%;
   }
-  
+
   .social-icons li {
     list-style: none;
     margin: 0 10px;
   }
 }
-
 @media (min-width: 375px) {
 }
