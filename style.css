@@ -97,6 +97,147 @@
     list-style: none;
     margin: 0 10px;
   }
+
+  .work-area {
+    display: grid;
+    margin-top: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    padding: 5% 5%;
+    border-radius: 15px;
+  }
+
+  .work-head {
+    font-size: 32px;
+    margin-top: -24px;
+  }
+
+  .work-detail {
+    display: flex;
+    align-items: center;
+    margin-top: -36px;
+  }
+
+  .work-detail ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .work-detail li {
+    margin: 0 15px;
+    color: #6b778c;
+    font-size: 13px;
+  }
+
+  .work-description p {
+    color: #344563;
+    font-size: 16px;
+    margin-top: -2px;
+  }
+
+  .languages {
+    justify-content: left;
+    margin-left: -50px;
+    margin-top: -24px;
+    margin-bottom: 4px;
+  }
+
+  .languages ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .languages li {
+    background-color: #f1ecec;
+    width: auto;
+    color: #6070ff;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 2px 12px;
+  }
+
+  .about-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #fff;
+    padding: 5%;
+    border-top-right-radius: 50px;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .work-detail p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  button {
+    color: #396df2;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    background-color: white;
+    border: 2px solid #396df2;
+    border-radius: 7px;
+    width: 166px;
+    height: 40px;
+    margin-left: 0;
+  }
+
+  .language-2 {
+    list-style: none;
+    margin-right: 13px;
+    margin-left: -38px;
+  }
+
+  .language-2 img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .lang-1 {
+    background-color: #f7f7f9;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-left: -32px;
+    margin-top: 10px;
+  }
+
+  .lang-1 img {
+    padding: 5px;
+  }
+
+  .lang-1 p {
+    padding: 5px;
+  }
+
+  .expertise {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .expertise img {
+    width: 15px;
+    height: 15px;
+    padding-right: 30px;
+  }
 }
 
 @media (min-width: 375px) {
