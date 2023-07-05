@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   
 
-  <h3><b>Portflio Header Readme</b></h3>
+  <h3><b>Portfolio Mobile Screen ReadMe</b></h3>
 
 </div>
 
@@ -59,10 +59,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio_header] <a name="about-project"></a>
+# 📖 [portfolio_mobile_screen] <a name="about-project"></a>
 
 
-**[portfolio_header]** is a starting project to learn about the mobile design in first preference.
+**[portfolio_mobile_screen]** is a starting project to learn about the mobile design in first preference.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,9 +85,20 @@ After you're finished please remove all the comments and instructions!
 - **[web_page_with_text]**
 - **[colored-text]**
 - **[background-banner]**
+- **[portfolio-section]**
+- **[about-section]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](https://github.com/nouman17610/figma-template01/pull/2)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -201,7 +212,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]https://github.com/nouman17610/figma-template01/issues).
+Feel free to check the [issues page](https://github.com/nouman17610/figma-template01/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,7 +230,7 @@ If you like this project please support the project by adding your contributions
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank my coding partner John who discussed the technical areas with me.
+I would like to thank my coding partner John Do who discussed the technical areas with me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
