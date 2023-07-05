@@ -197,6 +197,21 @@
     height: 40px;
     margin-left: 0;
   }
+  
+  button:active {
+    background-color: white;
+    color: #7F8cff;
+  }
+
+  button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  button:pressed {
+    background-color: #2230d2;
+    color: white;
+  }
 
   .language-2 {
     list-style: none;
