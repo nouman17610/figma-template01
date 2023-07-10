@@ -146,12 +146,10 @@
   .languages {
     margin-top: -24px;
     margin-bottom: 4px;
+    display: flex;
+    float: left;
   }
 
-  .languages ul {
-    /* float: left; */
-    display: flex;
-    list-style: none;
   }
 
   .languages li {
