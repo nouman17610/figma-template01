@@ -1,4 +1,12 @@
 @media (min-width: 375px) {
+  *,
+  ::before,
+  ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   body {
     font-family: Poppins, sans-serif;
     height: auto;
@@ -148,6 +156,7 @@
     margin-bottom: 4px;
     display: flex;
     float: left;
+    list-style: none;
   }
 
   }
@@ -245,7 +254,6 @@
     height: 15px;
     padding-right: 30px;
   }
-}
 
 @media (min-width: 375px) {
   body {
