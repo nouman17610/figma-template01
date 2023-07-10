@@ -144,13 +144,12 @@
   }
 
   .languages {
-    justify-content: left;
-    margin-left: -50px;
     margin-top: -24px;
     margin-bottom: 4px;
   }
 
   .languages ul {
+    /* float: left; */
     display: flex;
     list-style: none;
   }
