@@ -169,18 +169,19 @@
     flex-direction: column;
     margin-top: 30px;
     background-color: #fff;
-    padding: 5%;
     border-top-right-radius: 50px;
   }
 
   h2 {
     font-size: 32px;
     font-weight: 700;
+    margin-left: 5%;
+    margin-top: 13%;
   }
 
-  .work-detail p {
+  .about-area p {
     font-size: 13px;
-    font-weight: bold;
+    margin-left: 5%;
   }
 
   button {
@@ -193,7 +194,7 @@
     border-radius: 7px;
     width: 166px;
     height: 40px;
-    margin-left: 0;
+    margin-left: 5%;
   }
 
   button:active {
@@ -209,7 +210,7 @@
   .language-2 {
     list-style: none;
     margin-right: 13px;
-    margin-left: -38px;
+    margin-left: -20px;
   }
 
   .language-2 img {
@@ -252,6 +253,7 @@
     border-top-left-radius: 60px;
     width: 100%;
     text-align: center;
+    margin-top: 80px;
   }
 
   .form-area {
@@ -309,6 +311,7 @@
 
   .form-button {
     margin-top: 5%;
+    padding: 5px 0;
   }
 }
 
