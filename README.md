@@ -87,16 +87,8 @@ After you're finished please remove all the comments and instructions!
 - **[background-banner]**
 - **[portfolio-section]**
 - **[about-section]**
+- **[contact-form]**
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo Link](https://github.com/nouman17610/figma-template01/pull/2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,6 +195,7 @@ Example:
 - [ ] **[responsive_web_design]**
 - [ ] **[flex_box_implementation]**
 - [ ] **[full_homepage]**
+- [ ] **[desktop-version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,7 +223,7 @@ If you like this project please support the project by adding your contributions
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank my coding partner John Do who discussed the technical areas with me.
+I would like to thank my coding partner John Do, and Lewis Hinga who discussed the technical areas with me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
