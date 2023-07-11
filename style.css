@@ -294,7 +294,7 @@
 
   ::placeholder {
     color: #b6bfc3;
-    font-family: 'Poppins';
+    font-family: Poppins, sans-serif;
     padding: 12px;
   }
 
@@ -304,7 +304,7 @@
     border-radius: 8px;
     border: 1px solid #cfd8dc;
     color: #b6bfc3;
-    font-family: 'Poppins';
+    font-family: Poppins, sans-serif;
   }
 
   .form-button {
