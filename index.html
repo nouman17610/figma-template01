@@ -191,7 +191,7 @@
       <!-- work 4 area ends here-->
      </div>
      </section>
-     <section class="about-area">
+     <section class="about-area"  id="bio">
        <h2>About <br>
          Myself
        </h2>
@@ -268,7 +268,29 @@
                </li>
              </ul> 
            </div>
-     </section>
+     <div class="contact-form" id="contact_me">
+      <div class="form-area">
+      <div class="contact-heading">
+        <h3>Contact me</h3>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
+      </div>
+      <form action="https://formspree.io/f/xoqoqkzw" method="POST">
+        <div>
+          <input type="text" id="name" name="name" placeholder="Enter your name" size="40" max-length="30" required>
+        </div>
+        <div>
+          <input type="email" id="email" name="email" placeholder="Enter your email" size="40" required>
+        </div>
+        <div>
+          <textarea name="message" columns="30" rows="10" placeholder="Enter your message here" max-length="500" required></textarea>
+        </div>
+        <div class="form-button">
+          <button type="submit">Get in touch</button>
+        </div>
+      </form>
+    </div>
+    </div>
+    </section>
      </main>
 </body>
 </html>

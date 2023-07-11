@@ -168,21 +168,20 @@
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-left: 3%;
-    margin-right: 3%;
     background-color: #fff;
-    padding: 5%;
     border-top-right-radius: 50px;
   }
 
   h2 {
     font-size: 32px;
     font-weight: 700;
+    margin-left: 5%;
+    margin-top: 13%;
   }
 
-  .work-detail p {
+  .about-area p {
     font-size: 13px;
-    font-weight: bold;
+    margin-left: 5%;
   }
 
   button {
@@ -195,7 +194,7 @@
     border-radius: 7px;
     width: 166px;
     height: 40px;
-    margin-left: 0;
+    margin-left: 5%;
   }
 
   button:active {
@@ -211,7 +210,7 @@
   .language-2 {
     list-style: none;
     margin-right: 13px;
-    margin-left: -38px;
+    margin-left: -20px;
   }
 
   .language-2 img {
@@ -247,6 +246,72 @@
     width: 15px;
     height: 15px;
     padding-right: 30px;
+  }
+
+  .contact-form {
+    background-color: #6070ff;
+    border-top-left-radius: 60px;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .form-area {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-heading h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: -2%;
+  }
+
+  .contact-heading p {
+    font-size: 19px;
+    padding: 0 16px;
+  }
+
+  input {
+    width: 100%;
+    margin-top: 5%;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #cfd8dc;
+    color: #b6bfc3;
+  }
+
+  ::placeholder {
+    color: #b6bfc3;
+    font-family: Poppins, sans-serif;
+    padding: 12px;
+  }
+
+  textarea {
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 8px;
+    border: 1px solid #cfd8dc;
+    color: #b6bfc3;
+    font-family: Poppins, sans-serif;
+  }
+
+  .form-button {
+    margin-top: 5%;
+    padding: 5px 0;
   }
 }
 
