@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   
 
-  <h3><b>Portfolio Mobile Screen ReadMe</b></h3>
+  <h3><b>Portfolio Website ReadMe</b></h3>
 
 </div>
 
@@ -59,10 +59,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio_mobile_screen] <a name="about-project"></a>
+# 📖 [portfolio_website] <a name="about-project"></a>
 
 
-**[portfolio_mobile_screen]** is a starting project to learn about the mobile design in first preference.
+**[portfolio_website]** is a starting project to learn about the mobile screen design and desktop design.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -88,6 +88,7 @@ After you're finished please remove all the comments and instructions!
 - **[portfolio-section]**
 - **[about-section]**
 - **[contact-form]**
+- **[responsive-design]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,6 +197,7 @@ Example:
 - [ ] **[flex_box_implementation]**
 - [ ] **[full_homepage]**
 - [ ] **[desktop-version]**
+- [ ] **[project-deployment]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
