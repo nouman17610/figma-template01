@@ -446,10 +446,6 @@
     padding-left: 2%;
   }
 
-  .icon-text h4 {
-    margin-left: 1%;
-  }
-
   .work-area {
     width: 80%;
     margin-left: auto;
@@ -551,7 +547,7 @@
     margin-left: 5%;
   }
 
-/** Header **/
+  /** Header **/
 
   .icon-text1 {
     font-size: 16px;
