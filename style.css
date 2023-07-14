@@ -139,13 +139,15 @@
     background-color: white;
     padding: 5% 5%;
     border-radius: 15px;
+    width:100%;
+    margin-right: auto;
   }
 
   .details {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 10px;
+    margin-left: -4%;
   }
 
   .work-head {
@@ -158,6 +160,11 @@
     display: flex;
     align-items: center;
     padding-left: 6%;
+  }
+
+  .work-detail p {
+    font-size: 12px;
+    font-weight: bold
   }
 
   .work-detail ul {
@@ -574,8 +581,13 @@
   .work-detail {
     display: flex;
     align-items: center;
-    margin-top: -50px;
+    margin-top: -40px;
     padding-left: 30px;
+  }
+
+  .work-detail p {
+    font-size: 14px;
+    font-weight: bold
   }
 
   .work-detail ul {
@@ -740,6 +752,7 @@
     justify-content: space-between;
     border-bottom: 1px solid #dfe1e6;
     margin-top: 2%;
+    margin-bottom: 5%;
   }
 
   .expertise img {
