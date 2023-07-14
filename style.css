@@ -38,9 +38,13 @@
     font-size: 25px;
     line-height: 111%;
   }
+  
+  section img {
+    width: 100%;
+  }
 
   .menu-icon img {
-    width: 45x;
+    width: 45px;
     height: 45px;
   }
 
@@ -71,10 +75,6 @@
     padding-right: 3%;
     padding-left: 3%;
     padding-top: 21%;
-  }
-
-  section img {
-    width: 100%;
   }
 
   .banner-content {
@@ -139,7 +139,7 @@
     background-color: white;
     padding: 5% 5%;
     border-radius: 15px;
-    width:100%;
+    width: 100%;
     margin-right: auto;
   }
 
@@ -164,7 +164,7 @@
 
   .work-detail p {
     font-size: 12px;
-    font-weight: bold
+    font-weight: bold;
   }
 
   .work-detail ul {
@@ -587,7 +587,7 @@
 
   .work-detail p {
     font-size: 14px;
-    font-weight: bold
+    font-weight: bold;
   }
 
   .work-detail ul {
