@@ -496,6 +496,12 @@
     margin-right: auto;
     margin-bottom: 5%;
     margin-top: 1%;
+    transition-property: all;
+    transition-duration: 13s;
+  }
+
+  .banner-content :hover {
+    background-color: burlywood;
   }
 
   .banner-content h1 {
