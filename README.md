@@ -63,8 +63,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://nouman17610.github.io/figma-template01/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
