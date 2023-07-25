@@ -36,7 +36,7 @@
   position: absolute;
   top: 10px;
   left: 90%;
-  color: #ffffff;
+  color: #fff;
   width: 12px;
   height: 12px;
   stroke-width: 2px;
@@ -51,7 +51,7 @@
   .menu-icon {
     display: block;
   }
-  
+
   .menu-list {
     position: fixed;
     left: -100%;
@@ -79,6 +79,7 @@
     left: 0;
   }
 }
+
 @media (min-width: 375px) {
   body {
     font-family: Poppins, sans-serif;
