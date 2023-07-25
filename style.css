@@ -18,10 +18,8 @@
 
 .menu-icon {
   display: block;
-  cursor: pointer; 
+  cursor: pointer;
 }
-
-
 
 .bar {
   display: block;
@@ -33,6 +31,22 @@
   background: #6070ff;
 }
 
+.cross {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 90%;
+  color: #ffffff;
+  width: 12px;
+  height: 12px;
+  stroke-width: 2px;
+  stroke: var(--base-500-secondary, #67798e);
+}
+
+.hide {
+  visibility: hidden;
+}
+
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -41,11 +55,11 @@
   .menu-icon.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45);
   }
-  
+
   .menu-icon.active .bar:nth-child(2) {
     opacity: 0;
   }
-  
+
   .menu-icon.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45);
   }
@@ -78,8 +92,6 @@
   }
 }
 @media (min-width: 375px) {
-
-
   body {
     font-family: Poppins, sans-serif;
     height: auto;
@@ -89,8 +101,6 @@
   }
 
   /** Mobile Screen Navigation area **/
-
-  
 
   a {
     text-decoration: none;
@@ -107,7 +117,7 @@
   section img {
     width: 100%;
   }
-  
+
   .menu-icon img {
     width: 45px;
     height: 45px;
@@ -116,7 +126,7 @@
   /** Banner Area **/
 
   .container {
-    background-image: url('images/mobile-screen.png');
+    background-image: url("images/mobile-screen.png");
     background-repeat: no-repeat;
     height: auto;
     background-size: cover;
@@ -544,7 +554,7 @@
   }
 
   .container {
-    background-image: url('images/header-bg.svg');
+    background-image: url("images/header-bg.svg");
     background-size: contain;
     background-position-x: center;
     background-repeat: no-repeat;
