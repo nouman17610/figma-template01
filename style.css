@@ -80,6 +80,11 @@
   .menu-list.active {
     left: 0;
   }
+
+  #err-msg {
+    color: blue;
+    display: none;
+  }
 }
 
 @media (min-width: 375px) {
