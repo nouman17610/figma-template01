@@ -315,7 +315,7 @@
           <h3>Contact me</h3>
           <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
          </div>
-         <form action="https://formspree.io/f/xoqoqkzw" method="POST">
+         <form action="https://formspree.io/f/xoqoqkzw" method="POST" onsubmit="return validateEmail()">
            <div>
              <input type="text" id="name" name="name" placeholder="Enter your name" size="40" max-length="30" required>
            </div>
@@ -327,6 +327,7 @@
            </div>
            <div class="form-button">
              <button type="submit">Get in touch</button>
+             <span id="err-msg">Email must be in lower case!</span>
            </div>
          </form>
        </div>

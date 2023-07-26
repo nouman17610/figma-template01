@@ -44,6 +44,7 @@
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
@@ -57,6 +58,7 @@
 - **[about-section]**
 - **[contact-form]**
 - **[responsive-design]**
+- **[form-validation]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,6 +126,8 @@ git push
 - [ ] **[full_homepage]**
 - [ ] **[desktop-version]**
 - [ ] **[project-deployment]**
+- [ ] **[contact-form-validation]**
+- [ ] **[projects-popup]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +152,7 @@ If you like this project please support the project by adding your contributions
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank my coding partner John Do, and Lewis Hinga who discussed the technical areas with me.
+I would like to thank my coding partner John Do, Collins and Lewis Hinga who discussed the technical areas with me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

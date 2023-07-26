@@ -15,3 +15,16 @@ closebutton.addEventListener("click", () => {
   hamIcon.classList.remove('active');
   navItems.classList.remove('active');
 });
+
+function validateEmail() {
+  const emailField = document.getElementById("email");
+  const errMsg = document.getElementById("err-msg");
+
+  if (emailField.value !== emailField.value.toLowerCase()) {
+    errMsg.style.display = "block";
+    return false;
+  }
+
+  errMsg.style.display = "none";
+  return true;
+}
