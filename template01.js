@@ -10,7 +10,8 @@ document.querySelectorAll('.menu-item a').forEach((n) => n.addEventListener('cli
   })
 );
 const closebutton = document.querySelector('.cross');
-closebutton.addEventListener("click", function() {
-  console.log('button clicked');
+closebutton.addEventListener("click", () => {
   navItems.classList.add('hide');
+  hamIcon.classList.remove('active');
+  navItems.classList.remove('active');
 });
