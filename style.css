@@ -482,10 +482,11 @@
     margin-top: 5%;
     padding: 5px 0;
   }
+
   #err-msg {
     color: red;
-    background-color: #fff;
-    margin-top: 15px;
+    background-color: white;
+    margin-top: 10px;
     font-size: 20px;
     display: none;
   }
@@ -898,7 +899,6 @@
     color: #b6bfc3;
     font-family: Poppins, sans-serif;
     padding: 12px;
-    margin-left: 5px;
   }
 
   textarea {
