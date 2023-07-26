@@ -483,9 +483,9 @@
     padding: 5px 0;
   }
   #err-msg {
-    color: white;
-    background-color: red;
-    margin-top: 10px;
+    color: red;
+    background-color: #fff;
+    margin-top: 15x;
     font-size: 20px;
     display: none;
   }
