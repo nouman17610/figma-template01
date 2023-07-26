@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+    
     <title>My Porfolio</title>
 </head>
 <body>
@@ -12,21 +15,27 @@
       <div class="logo">
         <a href="#">Nouman</a>
       </div>  
-      <div class="menu-icon">
-        <img src="images/menu-icon.png" alt="hamburger icon">
-      </div>
       <nav class="navbar">
-        <ul>
-          <li>
-            <a href="#">Portfolio</a>
+        
+        <ul class="menu-list">
+          
+          <i class="fa-regular fa-x cross"></i>
+        
+          <li class="menu-item">
+            <a href="#portfolio">Portfolio</a>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li class="menu-item">
+            <a href="#about">About</a>
           </li>
-          <li>
-            <a href="#">Contact us</a>
+          <li class="menu-item">
+            <a href="#contact">Contact us</a>
           </li>
         </ul>
+        <div class="menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
         </nav>
     </header>
     <main>
@@ -82,7 +91,7 @@
         </div>
       </div> 
     </section> 
-    <section class="work-area">
+    <section class="work-area" id="portfolio">
       <!-- work 1 area starts here-->
       <div class="main-container"> 
         <div class="work-image">
@@ -216,7 +225,7 @@
       </div>
       <!-- work 4 area ends here-->
      </section>
-     <section class="about-area"  id="bio">
+     <section class="about-area"  id="about">
        <div class="my-detail">
          <div class="bio-detail">
            <h2>About Myself
@@ -300,7 +309,7 @@
              </ul> 
            </div>
            </div>
-     <div class="contact-form" id="contact_me">
+     <div class="contact-form" id="contact">
        <div class="form-area">
          <div class="contact-heading">
           <h3>Contact me</h3>
@@ -324,5 +333,7 @@
       </div>
     </section>
      </main>
+    <script src="template01.js">
+    </script>
 </body>
 </html>
