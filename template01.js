@@ -21,7 +21,7 @@ function validateEmail() {
   const errMsg = document.getElementById("err-msg");
 
   if (emailField.value !== emailField.value.toLowerCase()) {
-    errMsg.style.display = "inline";
+    errMsg.style.display = "block";
     return false;
   }
 
