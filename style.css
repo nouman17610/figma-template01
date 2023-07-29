@@ -51,8 +51,9 @@
   position: fixed;
   top: 5%;
   left: 5%;
- /** transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;**/
+
+  /** transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out; **/
   border: 1px solid black;
   border-radius: 10px;
   z-index: 10;
@@ -63,7 +64,7 @@
 }
 
 .modal.active {
-   /** transform: translate(-50%, -50%) scale(1);**/
+  /** transform: translate(-50%, -50%) scale(1); **/
   display: block;
 }
 
@@ -79,7 +80,7 @@
 }
 
 .modal-header .title {
-  color: #091E42;
+  color: #091e42;
   font-size: 1.25rem;
   font-weight: bold;
 }
