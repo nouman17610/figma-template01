@@ -67,6 +67,10 @@
   display: block;
 }
 
+.close-button {
+  margin-right: -85px;
+}
+
 .modal-header {
   padding: 5px 10px;
   display: flex;
@@ -88,10 +92,6 @@
   font-weight: bold;
 }
 
-.close-button {
-  margin-right: -85px;
-}
-
 .modal-body {
   display: grid;
   grid-template-columns: 70% 30%;
@@ -106,7 +106,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
 
@@ -141,7 +141,7 @@
 
 .pop-right {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
 
 .pop-languages {
