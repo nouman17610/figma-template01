@@ -79,6 +79,7 @@
 }
 
 .modal-header .title {
+  color: #091E42;
   font-size: 1.25rem;
   font-weight: bold;
 }
@@ -125,6 +126,10 @@
 .popup-detail p {
   font-size: 12px;
   font-weight: bold;
+}
+
+.modal-text {
+  color: #344563;
 }
 
 .popup-detail ul {
