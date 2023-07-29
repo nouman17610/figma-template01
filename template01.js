@@ -29,11 +29,11 @@ function validateEmail() {
   return true;
 }
   //Pop code is here
-  const openModalButtons = document.querySelectorAll('[data-modal-target]')
-  const closeModalButtons = document.querySelectorAll('[data-close-button]')
+  const openPopupButtons = document.querySelectorAll('[data-modal-target]')
+  const closePopupButtons = document.querySelectorAll('[data-close-button]')
   const overlay = document.getElementById('overlay')
   
-  openModalButtons.forEach(button => {
+  openPopupButtons.forEach(button => {
     button.addEventListener('click', () => {
       const modal = document.querySelector(button.dataset.modalTarget)
       openModal(modal)
@@ -47,7 +47,7 @@ function validateEmail() {
     })
   })
   
-  closeModalButtons.forEach(button => {
+  closePopupButtons.forEach(button => {
     button.addEventListener('click', () => {
       const modal = button.closest('.modal')
       closeModal(modal)
