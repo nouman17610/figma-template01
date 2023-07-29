@@ -178,6 +178,7 @@
   display: flex;
   gap: 12px;
   margin-top: 20px;
+  margin-right: -6%;
 }
 
 .pop-btn img {
@@ -243,7 +244,8 @@
   }
 
   .pop-btn {
-    margin-left: 0;
+    margin-left: -3%;
+    margin-right: 1%;
   }
 
   .modal-header .title {
